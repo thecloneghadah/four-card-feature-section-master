@@ -1,0 +1,147 @@
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap');
+	
+	*{
+		font-family: 'Poppins', sans-serif;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	html, body{
+		height:100%;
+		width: 100%;
+		background-color: hsl(0, 0%, 98%);
+		color: hsl(234, 12%, 34%);
+	}
+	body{
+		padding: 3%;
+	}
+	
+
+	header {
+		width: 100%;
+		text-align: center;
+		font-family: 'Poppins', sans-serif;
+	}
+	.subtitle{
+		font-weight: 400;
+	}
+	.title{
+		font-weight:600;
+	}
+	.discription{
+		display: inline-block;
+		width: 50%;
+		font-weight:200;
+		margin: 0.5em;
+	}
+	.container{
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(3,33%);
+		grid-template-rows: repeat(4,auto);
+		grid-gap: 15px;
+		padding: 2em;
+		margin-top: 20px;
+		
+	}
+	.conitem{
+		border-radius: 10px;
+		padding: 20px;
+		background-color: hsl(0, 0%, 100%);
+		box-shadow: 5px 5px 12px 0px hsl(229, 6%, 66%);
+	}
+	.conitem h3{
+		text-align: left;
+	}
+	.conitem p{
+		text-align: left;
+		font-weight: 200;
+	}
+	.img-cont{
+		position: relative;
+		padding: 35px;
+	}
+	.img-cont img{
+		position: absolute;
+		bottom: 10px;
+		right: 20px;
+	}
+	
+	.item-1{
+		border-top: 5px solid hsl(180, 62%, 55%);
+		grid-row-start: 2;
+		grid-row-end:4;
+	}
+	.item-2{
+		border-top: 5px solid hsl(0, 78%, 62%);
+		grid-column-start: 2;
+		grid-row-start:1;
+		grid-row-end:3;
+	}
+	.item-3{
+		border-top: 5px solid hsl(34, 97%, 64%);
+		grid-column-start: 2;
+		grid-row-start:3;
+		grid-row-end:5;	
+	}
+	.item-4{
+		border-top: 5px solid hsl(212, 86%, 64%);
+		grid-column-start: 3;
+		grid-row-start:2;
+		grid-row-end:4;
+	}
+	footer{
+		font-size: 11px; 
+		text-align: center;
+		font-family: 'Poppins', sans-serif;	
+	}
+	footer a{
+		color: hsl(228, 45%, 44%);
+	}
+	
+	@media only screen and (max-width: 375px) {
+	  header h1{
+		  font-size: 7vw;
+		}
+	   header p{
+		   min-width: 90%;
+	   }
+	   
+	   .container{
+		width: 100%;
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: repeat(4,auto);
+		grid-gap: 15px;
+		padding: 2em;		
+	}
+	.item-1{
+		grid-row-start: 1;
+		grid-row-end:2;
+		grid-column-start: 1;
+	}
+	.item-2{
+		grid-row-start:2;
+		grid-row-end:3;
+		grid-column-start: 1;
+	}
+	.item-3{
+		grid-row-start:3;
+		grid-row-end:4;	
+		grid-column-start: 1;
+	}
+	.item-4{
+		grid-row-start:4;
+		grid-row-end:5;
+		grid-column-start: 1;
+	}
+	
+	   
+	}
+	
+
+	
+	
+	
+	
+	
