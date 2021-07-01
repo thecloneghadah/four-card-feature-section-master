@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop-layout](Fourcardfeaturesection.jpg)
-![mobile-layout](Fourcardfeaturesectionmobile.jpg)
+![desktop layout](https://github.com/thecloneghadah/four-card-feature-section-master/blob/master/Fourcardfeaturesection.png)
+![mobile layout](https://github.com/thecloneghadah/four-card-feature-section-master/blob/master/Fourcardfeaturesectionmobile.png)
 
 
 ### Links
