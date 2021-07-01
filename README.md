@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop-layout](./Four card feature section.jpg)
-![mobile-layout](./Four card feature section mobile.jpg)
+![desktop-layout](/Fourcardfeaturesection.jpg)
+![mobile-layout](/Fourcardfeaturesectionmobile.jpg)
 
 
 ### Links
